@@ -3,32 +3,8 @@
   <head>
     <base target="_top">
     <title>test</title>
-    <?!= include('Stylesheet'); ?>
-    <?!= include('Javascript'); ?>
   </head>
   <body>
-  <h1>App-I-Tite</h1>
-  <div align="middle" style="border:5px solid #aa2e08">
-  <h3> Restaurants available: </h3>
-  <?var url = getScriptUrl();?>
-    <table>
-      <? for (var i = 0; i < restaurantList.length; i++) { ?>
-        <tr>
-          <td>
-            <?= restaurantList[i] ?>
-          </td>
-          <td> <input type='button' name='button' value='Order!' onclick="orderFromMenu(<?= restaurantList[i]?>)"/> </td>
-        </tr>
-      <? } ?>
-    </table>
-    
-    <h4 id="message"> Please select a restaurant </h4>
-    <form id="orderMenu"></form>
-    <p id="addRemove"></p>
-    <p id="otherInfo"></p>
-    <p id="navigation"></p>
-    </div>
-    
 
   </body>
 </html>
