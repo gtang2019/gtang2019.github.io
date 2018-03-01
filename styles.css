@@ -1,11 +1,22 @@
 body {
     background-image: url("http://www.tokkoro.com/picsup/1202017-burger.jpg");
     background-color: #ffb096;
+    background-size: cover;
+
 }
 h1 {
     color: #af2b00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
 }
 p {
-    color: #3b3b3d;
+    color: #dddddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
-
