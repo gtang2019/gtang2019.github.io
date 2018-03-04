@@ -1,23 +1,33 @@
-body {
-    background-image: url("http://www.tokkoro.com/picsup/1202017-burger.jpg");
-    background-color: #ffb096;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {margin:0;}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-h1 {
-    color: #af2b00;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+
+li {
+    float: left;
 }
-h2{
-  font-family: 'Roboto', sans-serif;
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-h3{
-  font-family: 'Roboto', sans-serif;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: #111;
 }
-p {
-    color: #dddddd;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+
+.active {
+   background-color: #d84841;
 }
