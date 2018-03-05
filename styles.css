@@ -63,3 +63,10 @@ body {margin:0;}
     text-align: left;
   }
 }
+
+
+/*Media links*/
+.mediaIcon {
+  width: 100px;
+  height: 100px;
+}
