@@ -1,7 +1,4 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+body {margin:0;}
 
 .topnav {
   background-color: #333;
@@ -24,6 +21,7 @@ body {
   font-size: 17px;
 }
 
+/* Change the link color to #111 (black) on hover */
 .topnav a:hover:not(.active) {
   background-color: #111;
 }
@@ -33,11 +31,15 @@ body {
 }
 
 .active {
-  background-color: green;
+  background-color: #d84841;
 }
+
+
 
 .topnav .icon {
   display: none;
+  background-color: #707070;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 600px) {
@@ -49,8 +51,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
